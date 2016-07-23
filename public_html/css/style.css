@@ -70,3 +70,26 @@ html.md-default-theme, html, body.md-default-theme, body {
     background-color: transparent;
     border-color: none;
 }
+
+.pop_card{
+    margin: 0px;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);
+    background-color: rgb(255,255,255);
+    border-radius: 2px;
+}
+
+.col-padding{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.row-padding{
+    margin-bottom: 5px;
+}
